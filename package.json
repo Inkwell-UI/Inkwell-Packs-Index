@@ -1,0 +1,13 @@
+{
+  "name": "@inkwell-ui/packs-index",
+  "version": "0.5.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs index.json",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "@inkwell-ui/spec": "link:../Inkwell-Spec"
+  }
+}

@@ -1,0 +1,40 @@
+name: Validate index
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      # the index links inkwell-spec as ../Inkwell-Spec, so both are checked out side by side
+      - uses: actions/checkout@v4
+        with:
+          path: Inkwell-Packs-Index
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          repository: Inkwell-UI/Inkwell-Spec
+          path: Inkwell-Spec
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build inkwell-spec
+        working-directory: Inkwell-Spec
+        run: yarn install --frozen-lockfile && yarn build
+      - name: Install
+        working-directory: Inkwell-Packs-Index
+        run: yarn install --frozen-lockfile
+      - name: Test the validator
+        working-directory: Inkwell-Packs-Index
+        run: yarn test
+      - name: Validate index.json (no entry removed from the target branch)
+        working-directory: Inkwell-Packs-Index
+        run: |
+          if [ -n "$GITHUB_BASE_REF" ] && git show "origin/$GITHUB_BASE_REF:index.json" > "$RUNNER_TEMP/base.json" 2>/dev/null; then
+            node scripts/validate.mjs index.json --base "$RUNNER_TEMP/base.json"
+          else
+            node scripts/validate.mjs index.json
+          fi

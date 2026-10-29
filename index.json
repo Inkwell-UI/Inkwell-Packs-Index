@@ -1,3 +1,10 @@
 {
-  "packs": []
+  "packs": [
+    {
+      "id": "stringutils",
+      "repo": "Inkwell-UI/Inkwell-StringUtils-Pack",
+      "latest": "0.1.0",
+      "description": "30 text utilities: trim, pad, truncate, search, split, format thousands, escape HTML and more."
+    }
+  ]
 }

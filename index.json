@@ -1,6 +1,12 @@
 {
   "packs": [
     {
+      "id": "objectutils",
+      "repo": "Inkwell-UI/Inkwell-ObjectUtils-Pack",
+      "latest": "0.1.0",
+      "description": "29 array utilities: index of, get, slice, unique, sort, shuffle, sum, pluck and filter by field and more."
+    },
+    {
       "id": "stringutils",
       "repo": "Inkwell-UI/Inkwell-StringUtils-Pack",
       "latest": "0.1.0",

@@ -1,6 +1,18 @@
 {
   "packs": [
     {
+      "id": "inventory",
+      "repo": "Inkwell-UI/Inkwell-Inventory-Pack",
+      "latest": "0.1.0",
+      "description": "15 nodes for inventory menu replacements: key, equip, drop, item card and category events, select, drop, sound and 3D item actions."
+    },
+    {
+      "id": "mathutils",
+      "repo": "Inkwell-UI/Inkwell-MathUtils-Pack",
+      "latest": "0.1.0",
+      "description": "37 math nodes: trigonometry, rounding, powers and logs, remap, wrap, easing, distance and random helpers."
+    },
+    {
       "id": "objectutils",
       "repo": "Inkwell-UI/Inkwell-ObjectUtils-Pack",
       "latest": "0.1.0",

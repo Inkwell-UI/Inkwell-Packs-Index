@@ -9,7 +9,7 @@
     {
       "id": "mathutils",
       "repo": "Inkwell-UI/Inkwell-MathUtils-Pack",
-      "latest": "0.1.0",
+      "latest": "0.1.1",
       "description": "37 math nodes: trigonometry, rounding, powers and logs, remap, wrap, easing, distance and random helpers."
     },
     {

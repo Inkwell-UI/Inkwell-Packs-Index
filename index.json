@@ -1,6 +1,18 @@
 {
   "packs": [
     {
+      "id": "colorutils",
+      "repo": "Inkwell-UI/Inkwell-ColorUtils-Pack",
+      "latest": "0.1.0",
+      "description": "7 colour nodes: make, channel, lerp, brightness, gray, hex to color and color to hex."
+    },
+    {
+      "id": "datetimeutils",
+      "repo": "Inkwell-UI/Inkwell-DateTimeUtils-Pack",
+      "latest": "0.1.0",
+      "description": "7 time nodes: format duration, duration parts, to seconds, time of day, time ago, month and weekday names."
+    },
+    {
       "id": "inventory",
       "repo": "Inkwell-UI/Inkwell-Inventory-Pack",
       "latest": "0.1.0",
@@ -15,8 +27,8 @@
     {
       "id": "objectutils",
       "repo": "Inkwell-UI/Inkwell-ObjectUtils-Pack",
-      "latest": "0.1.0",
-      "description": "29 array utilities: index of, get, slice, unique, sort, shuffle, sum, pluck and filter by field and more."
+      "latest": "0.2.0",
+      "description": "35 array and object utilities: index of, get, slice, unique, sort, shuffle, sum, pluck, filter by field, keys, values, merge and more."
     },
     {
       "id": "stringutils",

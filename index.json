@@ -9,7 +9,7 @@
     {
       "id": "datetimeutils",
       "repo": "Inkwell-UI/Inkwell-DateTimeUtils-Pack",
-      "latest": "0.1.1",
+      "latest": "0.1.2",
       "description": "10 time nodes: format duration, duration and date parts, to seconds, time of day, time ago, month and weekday names, now and make timestamp."
     },
     {

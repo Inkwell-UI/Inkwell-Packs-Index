@@ -3,37 +3,37 @@
     {
       "id": "colorutils",
       "repo": "Inkwell-UI/Inkwell-ColorUtils-Pack",
-      "latest": "0.1.1",
+      "latest": "0.1.2",
       "description": "7 colour nodes: make, channel, lerp, brightness, gray, hex to color and color to hex."
     },
     {
       "id": "datetimeutils",
       "repo": "Inkwell-UI/Inkwell-DateTimeUtils-Pack",
-      "latest": "0.1.3",
+      "latest": "0.1.4",
       "description": "10 time nodes: format duration, duration and date parts, to seconds, time of day, time ago, month and weekday names, now and make timestamp."
     },
     {
       "id": "inventory",
       "repo": "Inkwell-UI/Inkwell-Inventory-Pack",
-      "latest": "0.1.1",
+      "latest": "0.1.2",
       "description": "15 nodes for inventory menu replacements: key, equip, drop, item card and category events, select, drop, sound and 3D item actions."
     },
     {
       "id": "mathutils",
       "repo": "Inkwell-UI/Inkwell-MathUtils-Pack",
-      "latest": "0.1.2",
+      "latest": "0.1.3",
       "description": "37 math nodes: trigonometry, rounding, powers and logs, remap, wrap, easing, distance and random helpers."
     },
     {
       "id": "objectutils",
       "repo": "Inkwell-UI/Inkwell-ObjectUtils-Pack",
-      "latest": "0.2.1",
+      "latest": "0.2.2",
       "description": "35 array and object utilities: index of, get, slice, unique, sort, shuffle, sum, pluck, filter by field, keys, values, merge and more."
     },
     {
       "id": "stringutils",
       "repo": "Inkwell-UI/Inkwell-StringUtils-Pack",
-      "latest": "0.1.1",
+      "latest": "0.1.2",
       "description": "30 text utilities: trim, pad, truncate, search, split, format thousands, escape HTML and more."
     }
   ]
